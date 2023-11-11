@@ -1,0 +1,41 @@
+
+
+.pizza-details {
+  display: flex;
+  align-items: center; /* Centrez les éléments horizontalement */
+  justify-content: center; /* Centrez les éléments verticalement */
+  flex-direction: column;
+  width: 100%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Ombre douce */
+  background-color: rgb(241, 211, 211);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.5em; /* Taille de la police */
+}
+
+img {
+  height: 400px;
+  width: 525px;
+  border: 2px solid #1f0000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px; /* Espacement en bas de l'image */
+}
+
+
+
+
+a:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.pizza-description {
+  color: rgb(1, 73, 73);
+  margin-top: 25px;
+  line-height: 1.5;
+  text-align: center; /* Centrez le texte horizontalement */
+  font-size: 1em; /* Taille de la police */
+}

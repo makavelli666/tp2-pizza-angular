@@ -1,0 +1,29 @@
+
+
+
+<div class="container">
+  <h1 class="blocktext">TP2 - CWA</h1>
+
+  <form class="row g-3">
+    <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="Nom du pizza">
+    </div>
+    <div class="col-md-4 mb-3">
+      <input type="text" class="form-control" placeholder="Description du pizza">
+    </div>
+    <div class="col-md-3 mb-3">
+      <input type="text" class="form-control" placeholder="Ingrédient">
+    </div>
+    <div class="col-md-1">
+      <button class="btn btn-primary">Ajouter Pizza</button>
+    </div>
+  </form>
+</div>
+
+<div>
+
+    <app-pizza-list class="pizza-list" (pizzaSelected)="onPizzaSelected($event)"></app-pizza-list>
+    <app-pizza-details class="pizza-details" [pizza]="selectedPizza"></app-pizza-details>
+  </div>
+  
+

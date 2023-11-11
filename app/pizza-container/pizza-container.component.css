@@ -1,0 +1,66 @@
+/* Styles pour le conteneur global */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f3f3f3; /* Couleur de fond */
+  padding: 15px; /* Ajout d'un espacement intérieur */
+  border-radius: 10px; /* Bords arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+
+
+/* Styles pour le composant PizzaListComponent */
+.pizza-list {
+  list-style-type: none;
+  padding: 0;
+  width: 35%;
+}
+
+.blocktext {
+  text-align: center; /* Centre le texte horizontalement */
+  font-size: 3.5em; /* Taille de la police */
+  color: #ffffff; /* Couleur du texte */
+  background-color: #3d3d3d; /* Couleur de fond */
+  padding: 15px 20px; /* Ajoute un peu de rembourrage */
+  border-radius: 10px; /* Bords arrondis */
+  margin-top: 25px; /* Marge en haut du bloc */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+}
+
+.btn-primary {
+  color: #ffffff; /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  border-radius: 5px; /* Bords arrondis */
+  padding: 10px 15px; /* Espacement interne */
+  cursor: pointer; /* Curseur de type pointeur au survol */
+  transition: background-color 0.3s; /* Animation de la couleur de fond */
+  width:118%; /* Prend la largeur complète du conteneur parent */
+
+}
+
+.btn {
+  background-color: #3d3d3d; /* Couleur de fond */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre légère */
+
+}
+
+
+
+
+.form-control {
+  width:100%; /* Prend la largeur complète du conteneur parent */
+  padding: 15px; /* Espacement interne */
+  margin-bottom: 7.5px; /* Espacement en bas */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 5px; /* Bords arrondis */
+  transition: border-color 0.3s; /* Animation de la couleur de la bordure */
+}
+
+.form-control:focus {
+  outline: none; /* Supprime la bordure de focus */
+  border-color: #3498db; /* Couleur de la bordure lorsqu'il est en focus */
+}
