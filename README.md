@@ -1,6 +1,6 @@
-- Angular Pizza App
+- Angular Pizza App 🍕🍕🍕
 
-🍕 This application allows users to explore a variety of delicious pizzas, view details, and even add new pizzas to the menu.
+ This application allows users to explore a variety of delicious pizzas, view details, and even add new pizzas to the menu.
 
 Features
 
